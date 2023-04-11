@@ -3,12 +3,12 @@
 html{
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: #16171a;
+  background-color: #eddde4;
   font-family: 'Quicksand', sans-serif;
 } 
 
 .centered-box {
-  float: left; width: 50%; height: 200px; background-color: #0f1012; 
+  float: left; width: 50%; height: 200px; background-color: #f6ecf1; 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -67,18 +67,6 @@ html{
   margin-top: 2.5%;
   margin-right: 10%;
   white-space: nowrap;
-}
-#pfp:hover {
-  animation: rotation 250ms infinite linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
 }
 
 .switch{
